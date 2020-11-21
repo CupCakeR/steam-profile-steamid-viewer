@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	} else {
 		var actions = document.querySelector('.profile_header_actions');
 		if(actions) {
-			actions.innerHTML += '<a class="btn_profile_action btn_medium" href="javascript:OpenSteamIdDialog()" title="View SteamID">' +
+			actions.innerHTML += '<a class="btn_profile_action btn_medium" href="javascript:OpenSteamIdDialog()" title="View SteamIDs and quick links">' +
 				'<span><img src="https://i.imgur.com/9MQ0ACl.png" style="width: 16px; height: 16px; margin: 7px 0; vertical-align: top"></span></a> ';
 		}
 	}
