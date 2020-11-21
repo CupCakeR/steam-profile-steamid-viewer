@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name        Steam Community Profile SteamID Viewer
-// @namespace   www.doctormckay.com
-// @description Shows a user's SteamIDs on their profile
+// @namespace   cupcaker.dev
+// @description Shows a user's SteamIDs and some useful links
 // @include     *://steamcommunity.com/id/*
 // @include     *://steamcommunity.com/id/*/
 // @include     *://steamcommunity.com/profiles/*
 // @include     *://steamcommunity.com/profiles/*/
 // @version     1.0.3
-// @require     https://raw.githubusercontent.com/moatato/steam-profile-steamid-viewer/master/modules.min.js
+// @require     https://raw.githubusercontent.com/cupcaker/steam-profile-steamid-viewer/master/modules.min.js
 // @grant       GM_setClipboard
 // @grant       GM.setClipboard
 // @run-at      document-start
