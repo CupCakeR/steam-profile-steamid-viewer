@@ -36,8 +36,8 @@ document.addEventListener('DOMContentLoaded', function() {
 		var sid = new Modules.SteamID(unsafeWindow.g_rgProfileData.steamid);
 		var html = '<div class="bb_h1">Copy</div>';
 		html += '<p><a href="javascript:CopyToClipboard(\'' + sid.getSteam2RenderedID() + '\')">' + sid.getSteam2RenderedID() + '</a></p>';
-		html += '<p><a href="javascript:CopyToClipboard(\'' + sid.getSteam3RenderedID() + '\')">' + sid.getSteam3RenderedID() + '</a></p>';
 		html += '<p><a href="javascript:CopyToClipboard(\'' + sid.getSteamID64() + '\')">' + sid.getSteamID64() + '</a></p>';
+		html += '<p><a href="javascript:CopyToClipboard(\'' + sid.getSteam3RenderedID() + '\')">' + sid.getSteam3RenderedID() + '</a></p>';
 		html += '<p><a href="javascript:CopyToClipboard(\'https://steamcommunity.com/profiles/' + sid.getSteamID64() + '\')">https://steamcommunity.com/profiles/' + sid.getSteamID64() + '</a></p>';
 
 		idDialog = unsafeWindow.ShowAlertDialog(unsafeWindow.g_rgProfileData.personaname + "'s SteamID", html, "Close");
