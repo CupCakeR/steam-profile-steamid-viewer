@@ -15,12 +15,11 @@
 
 document.addEventListener('DOMContentLoaded', function() {
 	if(typeof unsafeWindow.g_rgProfileData === 'undefined' || !unsafeWindow.g_rgProfileData.steamid) {
-		return; // guess this isn't a profile
+		return;
 	}
 
 	var dropdown = document.querySelector('#profile_action_dropdown .popup_body.popup_menu');
 	if(dropdown) {
-		// We have a dropdown
 		dropdown.innerHTML += '<a class="popup_menu_item" href="javascript:OpenSteamIdDialog()"><img src="https://i.imgur.com/9MQ0ACl.png"> View SteamID</a>';
 	} else {
 		var actions = document.querySelector('.profile_header_actions');
