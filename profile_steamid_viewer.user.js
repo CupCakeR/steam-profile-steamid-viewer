@@ -1,16 +1,18 @@
 // ==UserScript==
-// @name        Steam Community Profile SteamID Viewer
-// @namespace   cupcaker.dev
-// @description Shows a user's SteamIDs and some useful links
-// @include     *://steamcommunity.com/id/*
-// @include     *://steamcommunity.com/id/*/
-// @include     *://steamcommunity.com/profiles/*
-// @include     *://steamcommunity.com/profiles/*/
-// @version     1.0.0
-// @require     https://raw.githubusercontent.com/cupcaker/steam-profile-steamid-viewer/master/modules.min.js
-// @grant       GM_setClipboard
-// @grant       GM.setClipboard
-// @run-at      document-start
+// @name			Steam Community Profile SteamID Viewer
+// @namespace		cupcaker.dev
+// @description		Shows a user's SteamIDs and some useful links
+// @author			Author: github/DoctorMcKay - Changes: github/CupCakeR
+// @homepage		https://github.com/cupcaker/steam-profile-steamid-viewer/
+// @include			*://steamcommunity.com/id/*
+// @include			*://steamcommunity.com/id/*/
+// @include			*://steamcommunity.com/profiles/*
+// @include			*://steamcommunity.com/profiles/*/
+// @version			1.0.0
+// @require			https://raw.githubusercontent.com/cupcaker/steam-profile-steamid-viewer/master/modules.min.js
+// @grant			GM_setClipboard
+// @grant			GM.setClipboard
+// @run-at			document-start
 // ==/UserScript==
 
 document.addEventListener('DOMContentLoaded', function() {
