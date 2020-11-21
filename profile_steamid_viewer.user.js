@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	var dropdown = document.querySelector('#profile_action_dropdown .popup_body.popup_menu');
 	if(dropdown) {
-		dropdown.innerHTML += '<a class="popup_menu_item" href="javascript:OpenSteamIdDialog()"><img src="https://i.imgur.com/9MQ0ACl.png"> View SteamID</a>';
+		dropdown.innerHTML += '<a class="popup_menu_item" href="javascript:OpenSteamIdDialog()"><img src="https://i.imgur.com/9MQ0ACl.png"> View SteamIDs & links</a>';
 	} else {
 		var actions = document.querySelector('.profile_header_actions');
 		if(actions) {
@@ -38,10 +38,10 @@ document.addEventListener('DOMContentLoaded', function() {
 		html += '<p><a href="javascript:CopyToClipboard(\'' + sid.getSteam2RenderedID() + '\')">' + sid.getSteam2RenderedID() + '</a></p>';
 		html += '<p><a href="javascript:CopyToClipboard(\'' + sid.getSteamID64() + '\')">' + sid.getSteamID64() + '</a></p>';
 		html += '<p><a href="javascript:CopyToClipboard(\'' + sid.getSteam3RenderedID() + '\')">' + sid.getSteam3RenderedID() + '</a></p>';
-		html += '<p><a href="javascript:CopyToClipboard(\'https://steamcommunity.com/profiles/' + sid.getSteamID64() + '\')">https://steamcommunity.com/profiles/' + sid.getSteamID64() + '</a></p>';
+		html += '<p><a href="javascript:CopyToClipboard(\'https://steamcommunity.com/profiles/' + sid.getSteamID64() + '\')">Profile Url</a></p>';
 
 		html += '<div class="bb_h1">Open</div>';
-		html += '<p><a href="javascript:OpenInNewTab(\'https://gmodstore.com/users/' + sid.getSteamID64() + '\')">https://gmodstore.com/users/' + sid.getSteamID64() + '</a></p>';
+		html += '<p><a href="javascript:OpenInNewTab(\'https://gmodstore.com/users/' + sid.getSteamID64() + '\')">gmodstore profile</a></p>';
 
 		idDialog = unsafeWindow.ShowAlertDialog(unsafeWindow.g_rgProfileData.personaname + "'s SteamID", html, "Close");
 	}, unsafeWindow);
