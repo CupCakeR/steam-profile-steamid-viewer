@@ -3,7 +3,7 @@ Adds an option to the "More" dropdown (or a button on your own profile) to view 
 
 ## [Requires this Tampermonkey Extension - Click here on Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 
-## [And then just click this to Install it](https://raw.githubusercontent.com/moatato/steam-profile-steamid-viewer/master/profile_steamid_viewer.user.js)
+## [And then just click this to Install it](https://raw.githubusercontent.com/cupcaker/steam-profile-steamid-viewer/master/profile_steamid_viewer.user.js)
 
 ![Screenshot](https://i.imgur.com/fOydY2J.png)
 ![Screenshot](https://imgur.com/OQaIppK.png)
