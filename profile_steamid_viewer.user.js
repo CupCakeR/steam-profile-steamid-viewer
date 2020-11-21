@@ -6,7 +6,7 @@
 // @include     *://steamcommunity.com/id/*/
 // @include     *://steamcommunity.com/profiles/*
 // @include     *://steamcommunity.com/profiles/*/
-// @version     1.0.3
+// @version     1.0.0
 // @require     https://raw.githubusercontent.com/cupcaker/steam-profile-steamid-viewer/master/modules.min.js
 // @grant       GM_setClipboard
 // @grant       GM.setClipboard
