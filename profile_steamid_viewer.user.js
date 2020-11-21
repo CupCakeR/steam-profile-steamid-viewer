@@ -40,11 +40,19 @@ document.addEventListener('DOMContentLoaded', function() {
 		html += '<p><a href="javascript:CopyToClipboard(\'' + sid.getSteam3RenderedID() + '\')">' + sid.getSteam3RenderedID() + '</a></p>';
 		html += '<p><a href="javascript:CopyToClipboard(\'https://steamcommunity.com/profiles/' + sid.getSteamID64() + '\')">https://steamcommunity.com/profiles/' + sid.getSteamID64() + '</a></p>';
 
+		html += '<div class="bb_h1">Open</div>';
+		html += '<p><a href="javascript:OpenInNewTab(\'https://gmodstore.com/users/' + sid.getSteamID64() + '\')">https://gmodstore.com/users/' + sid.getSteamID64() + '</a></p>';
+
 		idDialog = unsafeWindow.ShowAlertDialog(unsafeWindow.g_rgProfileData.personaname + "'s SteamID", html, "Close");
 	}, unsafeWindow);
 
 	unsafeWindow.CopyToClipboard = exportFunction(function(text) {
 		GM.setClipboard(text);
+		idDialog.Dismiss();
+	}, unsafeWindow);
+
+	unsafeWindow.OpenInNewTab = exportFunction(function(url) {
+		window.open(url, '_blank').focus();
 		idDialog.Dismiss();
 	}, unsafeWindow);
 });
