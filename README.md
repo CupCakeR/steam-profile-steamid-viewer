@@ -5,5 +5,5 @@ Adds an option to the "More" dropdown (or a button on your own profile) to view 
 
 ## [And then just click this to Install it](https://raw.githubusercontent.com/cupcaker/steam-profile-steamid-viewer/master/profile_steamid_viewer.user.js)
 
-![Screenshot](https://i.imgur.com/fOydY2J.png)
-![Screenshot](https://imgur.com/OQaIppK.png)
+![Screenshot](https://i.imgur.com/krY2hRl.png)
+![Screenshot](https://i.imgur.com/FmvezrZ.png)
